@@ -1,0 +1,399 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+}
+.cont{
+    width: 100%;
+    height: 500px;
+    
+}
+.imc{
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    top: 74px;
+    left: 56.6%;
+}
+.dc1{
+    width: 75%;
+    height: 500px;
+    background-color: #2E3463;
+    float: left;
+}
+
+.cont .nim{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+/*.np1{
+    font-size: 30px;
+    position: absolute;
+    top: 50px;
+    left: 151px;
+}*/
+.cont .nav1  ul{
+    list-style: none;
+display: flex;
+margin-left: 25%;
+position: absolute;
+top: 40px;
+}
+.cont  .nav1 ul li{
+    width: 20%;
+    padding: 20px;
+font-size: 20px;
+}
+.cont .nav1 ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.cont .nav1 ul li a:hover{
+    color: red;
+}
+.nh1{
+    position: absolute;
+    top: 150px;
+    left: 20%;
+    color: #FFFFFF;
+}
+.go{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    top: 260px;
+    left: 20%;
+    background-color: #FFFFFF;
+}
+.app{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+
+    position: absolute;
+    top: 260px;
+    left: 32%;
+}
+.dc2{
+    background-color:#FFFFFF ;
+   
+}
+.dc2 .da2{
+    text-decoration: none;
+    color: blue;
+   position: absolute;
+   left: 86%;
+   top: 54px;
+}
+button{
+    width: 100px;
+    height: 25px;
+    border-radius: 50px;
+    border: 0px;
+    background-color: rgb(50, 188, 243);
+    position: absolute;
+    top: 50px;
+    left: 90%;
+}
+.hh1{
+    position: absolute;
+    top: 560px;
+    left: 36%;
+    text-align: center;
+    color: #27124B;
+}
+.d21{
+    position: absolute;
+    top: 680px;
+    left: 7%;
+    text-align: center;
+}
+.d22{
+    position: absolute;
+    top: 680px;
+    left: 38%; 
+    text-align: center;
+
+}
+.d23{
+    position: absolute;
+    top: 680px;
+    left: 72%;
+    text-align: center;
+
+}
+.imd2{
+    width: 100px;
+    height: 100px;
+    transition: 2s;
+}
+.imd2:hover{
+    transform: rotate(360deg);
+}
+.hd21{
+    color: #27124B;
+}
+.pd21{
+    color: #3F2867;
+}
+.hh2{
+    position: absolute;
+    top: 950px;
+    left: 7%;
+    color: #27124B;
+    font-size: 50px;
+}
+.d31{
+    position: absolute;
+    top: 1100px;
+    left: 7%;
+}
+.d32{
+    position: absolute;
+    top: 1100px;
+    left: 35%;
+}
+.d33{
+    position: absolute;
+    top: 1230px;
+    left: 7%;
+}
+.d34{
+    position: absolute;
+    top: 1230px;
+    left: 35%;
+}
+.hd31{
+    color: #3F2867;
+}
+.pd31{
+    color: #262324;
+}
+.form{
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: 1000px;
+    left: 70%;
+}
+.imform{
+    width: 250px;
+    height: 400px;
+    position: absolute;
+    top: 1030px;
+    left: 70%;
+}
+.d4{
+    width: 75%;
+    height: 500px;
+    position: absolute;
+    top: 1600px;
+    left: 25%; 
+    background-color: #4090D6;
+}
+.hd41{
+    font-size: 40px;
+margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20%;
+    color: #FFFFFF;
+    
+}
+.d41, .d42, .d43{
+    margin-bottom: 30px;
+    margin-left: 20%; 
+    font-size: 10px;  
+    color: #FFFFFF;
+}
+.imd41{
+    width: 330px;
+    height: 450px;
+position: absolute;
+top: 1722px;
+left: 124px;
+}
+.imd42{
+    width: 250px;
+    height: 450px;
+    position: absolute;
+    top: 1610px;
+    left: 230px;   
+}
+.htech{
+    font-size: 50px;
+    color: #2E3463;
+    position: absolute;
+    top: 2250px;
+    left: 250px;
+}
+.ptech{
+    color: #2E3463;
+    position: absolute;
+    top: 2375px;
+    left: 250px;
+}
+.imtech{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 2230px;
+    left: 60%;
+}
+.d51{
+    width: 450px;
+    height: 150px;
+    position: absolute;
+    top: 2580px;
+    left: 250px;  
+    border:  1px;
+    border-radius: 5px;
+    background-color: #ddd1d1; 
+}
+.hd51{
+    color: #D1424C;
+    margin: 20px 0px 0px 30px;
+}
+.pd51{
+    margin-left:  30px;
+ color: #D1424C;
+}
+.d52{
+    width: 450px;
+    height: 150px;
+    position: absolute;
+    top: 2580px;
+    left: 53%;  
+    border:  1px;
+    border-radius: 5px;
+    background-color: #becbd6; 
+}
+.hd52{
+    color: #4090D6;
+    margin: 20px 0px 0px 30px;
+}
+.pd52{
+    margin-left:  30px;
+    color: #4090D6;
+
+}
+.d6{
+    width: 70%;
+    height: 500px;
+    position: absolute;
+    top: 2800px;
+    background-color: #D1424C;
+}
+.hd6{
+    font-size: 40px;
+    margin: 100px 0px 50px 150px;
+/*margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 20%;*/
+    color: #FFFFFF;
+    
+}
+.d61, .d62{
+    margin: 0px 0px 30px 150px;
+   /* margin-bottom: 30px;
+    margin-left: 20%;*/ 
+    font-size: 10px;  
+    color: #FFFFFF;
+}
+.imd61{
+    width: 350px;
+    height: 568px;
+    position: absolute;
+    top: 2800px; 
+    left: 60%;   
+}
+.imd62{
+    width: 250px;
+    height: 450px;
+    position: absolute;
+    top: 2835px; 
+    left: 61%;   
+}
+.imcent{
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 3400px; 
+    left: 150px;
+}
+.d7{
+    
+    position: absolute;
+    top: 3600px; 
+    left: 50%;
+    color: #2E3463;
+}
+.hd8{
+    position: absolute;
+    top: 3900px; 
+    left: 25%;
+    color: #2E3463;   
+}
+.d8{
+    position: absolute;
+    top: 3980px; 
+    width: 100%;
+}
+.imd8{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+
+}
+.d81{
+    position: absolute;
+    left: 26%;
+    top: 0px; 
+    
+}
+.d82{
+    position: absolute;
+    left:43%;
+    top: 0px; 
+}
+.d83{
+    position: absolute;
+    left: 60%;
+    top: 0px; 
+}
+.pd8{
+    color: #2E3463;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.d9{
+    position: absolute;
+    top: 4250px;
+    width: 100%;
+    height: 150px;
+    background-color: #2E3463;
+}
+.copy{
+    font-size: 30px;
+    text-align: center;
+margin-top: 30px;
+color: #FFFFFF;
+}
+i {
+    padding: 5px;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+    list-style: none;
+    transition: 2s;
+  }
+  i:hover{
+      transform: rotate(360deg);
+      color: rgb(177, 6, 6);
+  }
+  .d91{
+      margin: 10px 0px 0px 43%;
+  }
